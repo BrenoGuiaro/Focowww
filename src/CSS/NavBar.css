@@ -28,12 +28,13 @@
 
 @media (max-width: 425px){
     .fundoBar{
-        height: 7vh;
+        height: 8vh;
     }
     .title{
-        padding-top: 1vh;
+        padding-top: 0%;
+        
     }
     .logo{
-        padding-top: 1.5vh;
+        padding-top: 0.4vh;
     }
 }

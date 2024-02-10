@@ -5,6 +5,7 @@
     background-size: cover;
     margin-left: 10vw;
     margin-top: 5vh;
+    filter: opacity(69%);
     
 }
 
@@ -12,9 +13,22 @@
     color: pink;
 }
 
+.textA{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    padding-left: 60px;
+    padding-top: 25px;
+    text-shadow: 5px 5px black;
+    filter: opacity(100%);
+}
+ 
 @media (max-width: 425px){
     .alim{
-        height: 10vh;
+        height: 20vh;
+        border: 2px solid black;
+        border-radius: 10px;
     }
     .R{
         color: red;

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap');
+
+.fundoBar{
+    background: #009edf;
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    
+}
+
+.title{
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 40px;
+    margin: 0;
+    padding-top:2vh ;
+    padding-left: 3vw;
+}
+
+
+
+.logo{
+    color: white;
+     font-size: 45px;
+     padding-left: 29vw;
+     padding-top: 3vh;
+}
+

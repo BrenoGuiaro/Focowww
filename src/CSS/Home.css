@@ -8,14 +8,24 @@
     
 }
 
+.R{
+    color: pink;
+}
+
 @media (max-width: 425px){
     .alim{
         height: 10vh;
+    }
+    .R{
+        color: red;
     }
 }
 
 @media (max-width: 375px){
     .alim{
         height: 10vh;
+    }
+    .R{
+        color: orange;
     }
 }

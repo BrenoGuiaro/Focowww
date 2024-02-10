@@ -26,3 +26,14 @@
      padding-top: 3vh;
 }
 
+@media (max-width: 425px){
+    .fundoBar{
+        height: 7vh;
+    }
+    .title{
+        padding-top: 1vh;
+    }
+    .logo{
+        padding-top: 1.5vh;
+    }
+}

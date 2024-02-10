@@ -7,3 +7,15 @@
     margin-top: 5vh;
     
 }
+
+@media (max-width: 425px){
+    .alim{
+        height: 10vh;
+    }
+}
+
+@media (max-width: 375px){
+    .alim{
+        height: 10vh;
+    }
+}

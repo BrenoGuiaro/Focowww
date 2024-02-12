@@ -25,13 +25,12 @@
     color: white;
     padding-left: 17vw;
     padding-top: 2vh;
-}
-.opn{
     cursor: pointer;
     color: white;
 }
 
-/* .menu{
+
+ .menu{
     z-index: 1;
     cursor: pointer;
     
@@ -61,7 +60,7 @@
 }
 .menu.active .b3 {
     transform: translate(0,-7px) rotate(-45deg)
-} */
+} 
 
 
 .logo{
@@ -83,4 +82,37 @@
         padding-top: 1.5vh;
         padding-left: 33vw;
     }
+}
+
+
+.divOp{
+    width: 100vw;
+    height: 20vh;
+    background:none;
+    position: absolute;
+}
+
+.listBtn{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    
+}
+
+.btn{
+    width: 425px;
+    height: 5vh;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    opacity: 0;
+    background-color: #009edf;
+}
+
+.btn:hover{
+    background: #8AC7FF;
 }

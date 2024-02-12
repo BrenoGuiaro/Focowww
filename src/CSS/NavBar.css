@@ -17,6 +17,51 @@
     padding-left: 3vw;
 }
 
+.opn{
+    width: 50px;
+    height: 50px;
+    background: none;
+    border: none;
+    color: white;
+    padding-left: 17vw;
+    padding-top: 2vh;
+}
+.opn{
+    cursor: pointer;
+    color: white;
+}
+
+/* .menu{
+    z-index: 1;
+    cursor: pointer;
+    
+
+}
+
+.menu div{
+    width: 35px;
+    height: 4px;
+    background-color: white;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+    transition-timing-function: cubic-bezier(0.13,0.24,0.35,1.64);
+}
+
+.b1, .b2{
+    margin-bottom:5px;
+}
+
+
+.menu.active .b1 {
+    transform: translate(0,11px) rotate(45deg)
+}
+.menu.active .b2 {
+    transform: translateX(-55px);
+    background-color: transparent;
+}
+.menu.active .b3 {
+    transform: translate(0,-7px) rotate(-45deg)
+} */
 
 
 .logo{

@@ -1,13 +1,20 @@
 import React from 'react'
 import '../CSS/Home.css'
-import { Buttons } from '../components/Buttons'
-import { ButtonSuple } from '../components/ButtonSuple'
+import { Link } from 'react-router-dom'
+
+
 
 export const Home = () => {
   return (
     <>
-    <Buttons/>
-    <ButtonSuple/>
+      <div className='divOp'>
+        <ul className='listBtn'>
+          <Link to={'/alimentacao'}><button className='btn' id='a'>Alimentação</button></Link>
+          <button className='btn' id='t'>Treino</button>
+          <button className='btn' id='m'>Motivação</button>
+          <button className='btn' id='p'>Progresso</button>
+        </ul>
+      </div>
     </>
 
   )

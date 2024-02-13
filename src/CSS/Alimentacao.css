@@ -9,14 +9,125 @@
 }
 
 .boxTitle{
+    padding-top: 50px;
+    
+
+}
+
+.ti{
     color: white;
-    font-size: bold;
+    font-weight: bold;
+    background-color: #009edf;
+    padding-left: 20px;
+    width: 200px;
+    border-radius: 0px 10px 10px 0px  ;
     font-family: 'Kanit', sans-serif;
     font-size: 30px;
-    background-color: #009edf;
-    width: 200px;
-    margin-top: 50px;
-    padding-left: 20px;
+}
+
+.aplicativo{
+    padding: 20px;
+    height: 33vh;
+    padding-top: 40px;
+ 
+}
+
+.imgAp{
+    background-image: url('../Imagens/growthAPP.png');
+    width: 382px;
+    height: 280px;
+    background-size: contain;
+    overflow: hidden;
+    position: relative;
+    
+
+}
+
+.baixo{
     position: absolute;
-    border-radius: 0px 10px 10px 0px  ;
+    bottom: 0;
+    width: 95%;
+    left: 0;
+    right: 0;
+    background: #717171;
+    transform: translateY(93px);
+    padding: 0px 20px 20px 0px;
+
+
+    
+}
+.dow{
+padding-right: 5px;
+
+}
+.baixo:hover{
+    transform: translateY(0);
+}
+.info{
+    padding-top: 2rem;
+    display: flex;
+    margin-top: 1.5rem;
+    
+}
+.name{
+    color: white;
+    padding-left: 14px;
+    padding-top: 10px;
+    font-family: 'Kanit', sans-serif;
+    border-bottom: 2px solid #a5a5a5;
+    padding-bottom: 5px;
+    width: 100px;
+    
+}
+
+.inst{
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    padding-left: 10px;
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+
+.divPlay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    padding-left: 10px;
+}
+
+.play{
+   color: white;
+   padding-right: 5px;
+
+}
+
+.textPlay{
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 13px;
+    
+}
+
+.divApple{
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.apple{
+    color: white;
+    font-size: 20px;
+    padding-right: 3px
+}
+
+.saiba{
+    color: #009edf;
+    font-family: 'Kanit', sans-serif;
+    padding-left: 85px;
+    font-size: 15px;
 }

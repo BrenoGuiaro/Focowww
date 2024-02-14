@@ -17,6 +17,7 @@ function App() {
       <Route path='/treino' element={<Treino/>}></Route>
       <Route path='/meta' element={<Metas/>}></Route>
       <Route path='/progresso' element={<Progresso/>}></Route>
+      
     </Routes>
     </>
   );

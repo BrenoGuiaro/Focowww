@@ -86,7 +86,7 @@ export const Alimentacao = () => {
           </div>
         </SwiperSlide>
 
-        <SwiperSlide>
+        <SwiperSlide style={{border: '1px solid green', width: '420px'}}>
           <div className='tm'>
             <div className='div' id='div3'>
               <div className='boxText'>

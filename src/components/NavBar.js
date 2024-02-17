@@ -13,7 +13,7 @@ export const NavBar = () => {
             activeBar++) {
             total[activeBar].classList.toggle('active')
         }
-        
+
     }
 
     function teste() {
@@ -23,8 +23,8 @@ export const NavBar = () => {
         const text3 = document.querySelector('#m')
         const text4 = document.querySelector('#p')
         let state = false
-        
-        
+
+
 
 
         if (div.style.background === 'none') {
@@ -61,7 +61,7 @@ export const NavBar = () => {
 
     }
 
-    function off(){
+    function off() {
         const div = document.querySelector('.divOp')
         const text = document.querySelector('#a')
         const text2 = document.querySelector('#t')
@@ -72,8 +72,8 @@ export const NavBar = () => {
         text2.style.opacity = 0
         text3.style.opacity = 0
         text4.style.opacity = 0
-        
-        
+
+
         ney()
     }
 
@@ -84,8 +84,13 @@ export const NavBar = () => {
         <>
 
             <div className='fundoBar'>
-                <Logo className='logo' />
+                <Link  to={'/'} style={{ display: 'flex', textDecoration: 'none'}}>
+
+                    <Logo className='logo' />
+                </Link>
                 <h1 className='title'>Foco</h1>
+
+
 
                 <button className='opn' onClick={teste} >
                     <div className='menu'>
@@ -97,7 +102,7 @@ export const NavBar = () => {
 
             </div>
 
-            <div className='divOp' style={{ background: 'none'}}>
+            <div className='divOp' style={{ background: 'none' }}>
                 <ul className='listBtn'>
                     <Link to={'/alimentacao'} onClick={off}><button className='btn' id='a'>Alimentação</button></Link>
                     <button className='btn' id='t'>Treino</button>
